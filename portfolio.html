@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Souissi</title>
+  </head>
+  <body>
+    <header>
+      <ul class="menu">
+        <li class="menuItems">
+          <a href="index.html"
+            ><img
+              src="images/home-removebg-preview.png"
+              alt="homePage"
+              height="30"
+              width="30"
+          /></a>
+        </li>
+        <li class="menuItems">
+          <a href="portfolio.html" class="portfolio">Portfolio</a>
+        </li>
+        <li>
+          <div class="servicesButton">
+            <a class="menuItems services" onclick="dropDown()">Services</a>
+          </div>
+          <div class="servicesMenu" id="servicesMenu">
+            <ul class="servicesList">
+              <li><a href="services.html" class="tutorat">Tutorat</a></li>
+              <li>
+                <a href="services.html" class="prepaTest"
+                  >Preparation aux tests</a
+                >
+              </li>
+              <li>
+                <a href="services.html" class="diss"
+                  >Dissertion universitaire</a
+                >
+              </li>
+              <li>
+                <a href="services.html" class="prepaIntrvw"
+                  >Preparation aux interviews</a
+                >
+              </li>
+              <li><a href="services.html" class="traduction">Traduction</a></li>
+              <li><a href="services.html" class="art">Art oratoire</a></li>
+            </ul>
+            <script src="js/dropDownMenu.js"></script>
+          </div>
+        </li>
+        <li class="menuItems">
+          <a href="media.html" class="media">Média</a>
+        </li>
+        <li class="menuItems">
+          <a href="index.html#contactPart" class="contact">Contacts</a>
+        </li>
+        <li class="menuItems">
+          <select
+            name="languageSelector"
+            id="languageSelector"
+            class="languageSelector"
+          >
+            <option value="fr">Fr</option>
+            <option value="en">En</option>
+          </select>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <article id="biography" class="biography">
+        <h1 class="biographyTitle">A propos de nous.</h1>
+        <div class="firstBiography">
+          <img
+            src="images/blank-profile-picture-coming-soon.png"
+            alt="picture"
+            height="150"
+            width="150"
+            class="biographyImg1"
+          />
+          <p class="biographyP1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            deserunt sequi possimus laborum corporis voluptate consequuntur,
+            inventore explicabo delectus earum dolor hic totam, laboriosam
+            necessitatibus. Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Quaerat nam repellat nesciunt, pariatur minima atque culpa
+            consequatur rerum fuga deleniti quae esse quidem eos qui.
+          </p>
+        </div>
+
+        <br /><br />
+        <div class="secondBiography">
+          <img
+            src="images/blank-profile-picture-coming-soon.png"
+            alt="picture"
+            height="150"
+            width="150"
+            class="biographyImg2"
+          />
+
+          <p class="biographyP2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+            obcaecati eum reiciendis ad beatae quas facilis necessitatibus quae
+            voluptates perferendis incidunt ab quibusdam et modi illum ut
+            distinctio autem blanditiis cupiditate dolores? Natus excepturi
+            obcaecati ratione! Placeat magnam cupiditate dolor est harum, ut
+            ipsam, doloribus doloremque, numquam exercitationem unde delectus?
+          </p>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="footerContainer">
+        <p>
+          <span style="white-space: nowrap">Développé par: </span>Sofien Bouharb
+        </p>
+        <p>
+          <span style="white-space: nowrap">Email: </span
+          ><a href="mailto:sofien.bouharb@gmail.com"
+            >sofien.bouharb@gmail.com</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
